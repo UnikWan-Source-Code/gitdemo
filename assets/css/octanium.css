@@ -1,0 +1,1540 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  /* background-color: #190041; */
+  color: #ffffff;
+  overflow-x: hidden;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+p,
+.text {
+  line-height: 29.3px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+body .menu-holder.show .sm-clean a {
+  padding: 10px 40px !important;
+  font-size: 18px;
+}
+
+.menu-holder.show {
+  width: 100%;
+  /* border-top: 0.5px solid #fff; */
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #FDE8BC;
+  padding-left: 60px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 10px 5px;
+  line-height: 28px;
+}
+
+.nav-bg-color {
+  background-color: rgb(25, 0, 65);
+  box-shadow: rgb(0 0 0 / 56%) 0px 4px 6px 0px;
+}
+
+.octa-banner .button-holder,
+footer .button-holder {
+  text-align: left !important;
+}
+
+.octa-main-page img {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+section.octa-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  display: block;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  min-height: -webkit-fill-available;
+}
+
+.octa-banner p {
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.octa-banner .block1 {
+  -ms-flex: 0 0 45%;
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.octa-banner .block2 {
+  -ms-flex: 0 0 55%;
+  flex: 0 0 55%;
+  max-width: 55%;
+}
+
+.octa-banner .block1 img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+
+.octa-banner .block1 .button-holder .button {
+  position: relative;
+  padding: 10px 15px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.octa-banner .block1 .button-holder .btn1 {
+  margin-right: 15px;
+}
+
+.octa-banner i.fab.fa-discord,
+.octa-banner i.fab.fa-twitter,
+footer i.fab.fa-discord,
+footer i.fab.fa-twitter {
+  font-size: 25px;
+  padding-right: 15px;
+}
+
+.octa-banner .block2 .banner-image figure {
+  text-align: right;
+}
+
+.octa-banner .block2 .banner-image .block2-img1 {
+  width: 767px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+section.octa-roadmap {
+  /* background-image: url(../images/roadmap-bg.png); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px 0 40px 0;
+  background-color: #68BDBB;
+}
+
+.octa-roadmap .row {
+  position: relative;
+  text-align: center;
+}
+
+.octa-roadmap img.roadmap-line {
+  position: relative;
+    top: -45px;
+    left: 70px;
+    margin-bottom: -65px;
+}
+
+.octa-roadmap .block1 {
+  flex: 0 0 33%;
+  max-width: 33%;
+  position: relative;
+}
+
+.octa-roadmap .block1 h3 {
+  padding: 0px 0 5px 0;
+  font-weight: 500;
+}
+
+.octa-roadmap .block1 p {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.octa-roadmap .block1 img {
+  width: 125px;
+}
+
+.octa-roadmap h2 {
+  padding-top: 60px;
+}
+
+section.octa-expansion {
+  background-image: url(../images/expansion-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30px;
+}
+
+.octa-expansion .block1 {
+  padding-top: 60px;
+}
+
+.octa-expansion .inner-block1 {
+  padding-top: 60px;
+}
+
+.octa-expansion .inner-block1-img1,
+.octa-expansion .inner-block2-img2,
+.octa-expansion .inner-block3-img3 {
+  width: 150px;
+  height: 150px;
+  /*opacity: 0.5;
+	cursor: pointer;*/
+}
+
+.octa-expansion .block1 .inner-block1,
+.octa-expansion .block1 .inner-block2 {
+  padding-bottom: 50px;
+}
+
+.octa-expansion .block1 .inner-block1-content .text,
+.octa-expansion .block1 .inner-block3-content .text {
+  line-height: 29.3px;
+  max-width: 625px;
+}
+
+.octa-expansion .block1 .inner-block2-content .text {
+  line-height: 29.3px;
+  max-width: 560px;
+}
+
+/*.octa-expansion .block1 .inner-block1-content .text, .octa-expansion .block1 .inner-block2-content .text, .octa-expansion .block1 .inner-block3-content .text{
+    visibility: hidden;
+}
+
+.octa-expansion .inner-block1-img1:hover, 
+.octa-expansion .inner-block2-img2:hover, 
+.octa-expansion .inner-block3-img3:hover {
+	opacity: 1;
+}
+
+.octa-expansion .inner-block1-img1:hover + .inner-block1-content .text, 
+.octa-expansion .inner-block2-img2:hover + .inner-block2-content .text, 
+.octa-expansion .inner-block3-img3:hover + .inner-block3-content .text {
+	visibility: visible;
+}*/
+
+section.octa-meta {
+  padding-top: 30px;
+  background-image: url(../images/lore.png);
+  background-repeat: no-repeat;
+  background-color: #FDE8BC;
+  background-size: 100%;
+  padding-bottom: 60px;
+}
+
+.octa-meta h2.meta-heading {
+  text-align: left;
+  /* color: #c600ca; */
+  padding-bottom: 25px;
+}
+
+.octa-meta p.meta-para {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.octa-meta h2.big-text.heading {
+  text-align: center;
+  padding: 10px 0 25px 0;
+}
+
+.planets-image-holder {
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 25px;
+  width: 215px;
+  height: 215px;
+  box-shadow: rgb(0 0 0 / 68%) 0px 7px 6px 0px;
+}
+
+.oct-planets-holder {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.oct-planetsdata-holder {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.planets-data-image {
+  flex: 1;
+  margin: 0 40px;
+}
+
+.planets-data-image img {
+  width: 100%;
+}
+
+.planets-data-content {
+  flex: 1;
+  margin: 0 40px;
+}
+
+.planets-data-content h5.big-text {
+  padding-bottom: 5px;
+  color: #4F3C2E;
+}
+
+.planets-data-content p {
+  margin-bottom: 0;
+}
+
+.oct-planets-section {
+  border: 1px solid #1C0102;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 45px;
+  position: relative;
+  display: none;
+}
+.oct-planets-close {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: 300;
+  color: #4F3C2E;
+}
+
+.oct-planets-next {
+  position: absolute;
+  right: 10px;
+  bottom: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  color: #4F3C2E;
+}
+
+.oct-planets-prev {
+  position: absolute;
+  left: 10px;
+  bottom: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  color: #4F3C2E;
+}
+
+section.octa-team {
+  padding: 30px 0 60px 0;
+  background-image: url(../images/t1.png), url(../images/t2.png);
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #070477;
+  border-bottom: 10px solid #000;
+}
+
+.octa-team h2 {
+  text-align: center;
+  color: #F6D56F;
+  font-weight: 700;
+}
+
+.octa-team h3 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #F6D56F;
+  font-weight: 700;
+}
+
+.octa-team .block1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.octa-team .inner-block1 {
+  flex: 0 0 23.33%;
+  max-width: 33.33%;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.octa-team .inner-block1 .hover-sec {
+  position: relative;
+}
+
+.octa-team img.inner-block1-img {
+  width: 200px;
+  height: 200px;
+}
+
+.octa-team .inner-block1 .inner-block1-content h5 {
+  padding: 20px 0 0;
+  color: #F6D56F;
+  font-weight: 600;
+}
+
+.octa-team .inner-block1 .inner-block1-content img {
+  width: 30px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.octa-team .team-block2,
+.octa-team .team-block3 {
+  padding-top: 20px;
+}
+
+.octa-team .inner-block1 .inner-block1-content span {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+section.octa-faq {
+  padding: 60px 0;
+  background-color: #FDE8BC;
+  background-image: url(../images/faq.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.octa-faq h2 {
+  text-align: left;
+  padding: 0 0 40px 0;
+  font-weight: 700;
+}
+
+.octa-faq .row1,
+.octa-faq .row2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.octa-faq .row1 {
+  padding-bottom: 20px;
+}
+
+.octa-faq .row1 .block1,
+.octa-faq .row2 .block1 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.octa-faq h4.view-faq {
+  position: relative;
+  padding: 18px 55px 18px 20px;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.octa-faq h4.view-faq.extra-radius {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.octa-faq span.plusminus {
+  position: absolute;
+  right: 20px;
+  font-size: 35px;
+  font-weight: 300;
+  top: 18px;
+}
+
+.octa-faq .view-answ {
+  display: none;
+  padding: 0px 15px 18px;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.octa-faq .view-answ p {
+  margin-bottom: 0;
+}
+
+footer {
+  /* border-top: 1px solid #fff; */
+  background-color: #68BDBB;
+}
+
+footer .button-holder {
+  padding: 15px 0 50px 0;
+}
+
+footer .button-holder .button {
+  position: relative;
+  padding: 10px 15px;
+  background-color: unset;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #fff;
+}
+
+footer .button-holder .button.btn2 {
+  float: right;
+}
+
+.octa-team .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(130, 225, 255, 1);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.octa-team .hover-sec:hover .overlay {
+  opacity: 1;
+}
+
+.octa-team .icon {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer .button-holder p {
+  text-align: center;
+  color: #1C0102;
+}
+
+.octa-meta .meta-flex {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  /* margin: 0 auto; */
+  /* position: relative; */
+  padding: 20px 0 7px;
+}
+
+.meta-box1 {
+  padding-right: 25px;
+}
+
+.meta-box2 {
+  padding-left: 25px;
+}
+
+.meta-box-point span {
+  padding-right: 5px;
+}
+
+/*.oct-planetsdata-holder {    
+	opacity: 0;
+    transition: opacity 0.6s linear;
+}
+
+.show {
+	opacity: 1;
+}*/
+
+@media (max-width: 354px) {
+  .octa-banner i.fab.fa-discord,
+  .octa-banner i.fab.fa-twitter,
+  footer i.fab.fa-discord,
+  footer i.fab.fa-twitter {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  p,
+  .text {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .octa-banner p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .octa-banner .block2 .banner-image .block2-img1 {
+    width: 280px;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+  .octa-banner .block2 .banner-image .block2-img1 {
+    width: 500px;
+    height: auto;
+  }
+
+  .octa-banner h1 {
+    line-height: 55px;
+  }
+
+  .octa-roadmap .auto-container h2 {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 332px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  
+  section.octa-roadmap {
+    background-image: unset;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  .row .block1 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .row .block2 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  section.octa-banner {
+    /* background-image: url(../images/banner-bg-mob.png); */
+    align-items: unset;
+    justify-content: unset;
+  }
+
+  .octa-banner .row .block1 {
+    padding-top: 80px;
+    text-align: left;
+  }
+
+  section.octa-roadmap {
+    padding: 45px 0;
+  }
+
+  .octa-roadmap h2 {
+    padding-top: 0;
+    padding-bottom: 35px;
+    line-height: 30px;
+  }
+
+  .octa-roadmap img.roadmap-line {
+    display: none;
+  }
+
+  .octa-roadmap .row .block1.rm1,
+  .octa-roadmap .row .block1.rm2,
+  .octa-roadmap .row .block1.rm3 {
+    padding-bottom: 30px;
+  }
+
+  .octa-expansion .block1,
+  .octa-expansion .inner-block1 {
+    padding-top: 0;
+  }
+
+  .octa-expansion .block1 .inner-block1,
+  .octa-expansion .block1 .inner-block2 {
+    padding-bottom: 50px;
+  }
+
+  .octa-expansion .block1 .inner-block1-content .text,
+  .octa-expansion .block1 .inner-block2-content .text,
+  .octa-expansion .block1 .inner-block3-content .text {
+    margin: 0 auto;
+  }
+
+  section.octa-meta {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .octa-meta h2.meta-heading {
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .octa-meta p.meta-para {
+    text-align: center;
+  }
+
+  .oct-planets-section {
+    padding: 15px 0;
+  }
+
+  .planets-image-holder {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+
+  .oct-planets-close {
+    font-size: 28px;
+  }
+
+  .oct-planets-next,
+  .oct-planets-prev {
+    font-size: 35px;
+  }
+
+  .oct-planetsdata-holder {
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .planets-data-image,
+  .planets-data-content {
+    margin: 0;
+  }
+
+  .planets-data-image img {
+    width: 200px;
+  }
+
+  .octa-meta .planets-data-content h5 {
+    font-size: 18px;
+  }
+
+  .octa-meta .planets-data-content p {
+    line-height: 23px;
+    font-size: 14px;
+  }
+
+  section.octa-team {
+    padding: 0px 0 40px;
+  }
+
+  .octa-team .inner-block1 {
+    flex: unset;
+    max-width: unset;
+    padding: 20px 15px;
+  }
+
+  .octa-team img.inner-block1-img,
+  .octa-team .overlay {
+    width: 125px;
+    height: 125px;
+  }
+
+  section.octa-faq {
+    padding-bottom: 30px;
+    background-image: url(../images/lorem.png);
+    background-position: right;
+  }
+
+  .octa-faq .row1 {
+    padding-bottom: 0px;
+  }
+
+  .octa-faq .row1,
+  .octa-faq .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .octa-faq .row1 .block1,
+  .octa-faq .row2 .block1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+  }
+
+  .octa-meta .meta-flex {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .octa-meta .meta-box1 {
+    padding-right: 0;
+  }
+
+  .octa-meta .meta-box2 {
+    padding-left: 0;
+  }
+
+  
+  
+  section.octa-banner {
+    height: auto;
+  }
+  
+  .hero-sec img {
+    display: none;
+  }
+
+  .block2-img1.desk {
+    display: none;
+  }
+
+  .octa-banner h1 {
+    padding: 120px 15px 20px 15px; 
+  }
+
+  h1{
+    /* padding: 120px 15px 20px 15px; */
+    margin: 0 auto;
+  }
+
+  .octa-banner p {
+    margin: 0 auto;
+  }
+
+  section.octa-meta.gang h2.meta-heading, .octa-faq h2 {
+    text-align: center;
+  }
+
+  section.octa-roadmap {
+    background-color: #FDE8BC;
+    background-image: url(../images/roadmapm.png), url(../images/rmfp.png);
+    background-position: top, bottom;
+  }
+
+  .octa-roadmap h3 {
+    color: #4F3C2E;
+  }
+
+  .octa-meta.lore {
+    background-image: url(../images/lorem.png);
+    background-position: bottom;
+  }
+
+  section.octa-meta.gang {
+    background-image: url(../images/forestm.png)!important;
+  }
+
+  .octa-banner .auto-container {
+    padding: 0;
+  }
+
+  .octa-banner p, .octa-banner .button-holder {
+    padding: 0 15px;
+  }
+
+  .octa-banner .button-holder {
+    padding-top: 20px;
+  }
+
+  .octa-banner a.button {
+    padding: 10px 15px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .octa-banner .button-holder.bh1 {
+    float: left;
+    margin-right: 12px;
+  }
+
+  .octa-roadmap h2 span {
+    display: none;
+  }
+
+  span.mph, p.mph {
+    display: none;
+  }
+
+  img.block2-img1.mob {
+    position: relative;
+    top: 15px;
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .octa-expansion .block1 .inner-block1,
+  .octa-expansion .block1 .inner-block2,
+  .octa-expansion .block1 .inner-block3 {
+    display: flex;
+  }
+
+  .octa-expansion .block1 .inner-block1-content,
+  .octa-expansion .block1 .inner-block2-content,
+  .octa-expansion .block1 .inner-block3-content {
+    position: relative;
+    padding-top: 40px;
+  }
+
+  .octa-expansion .block1 .inner-block1-content h3,
+  .octa-expansion .block1 .inner-block2-content h3,
+  .octa-expansion .block1 .inner-block3-content h3 {
+    padding: 10px 0;
+  }
+
+  .octa-expansion .block1 .inner-block1-content .text {
+    position: relative;
+    padding-left: 25px;
+  }
+
+  .octa-expansion .block1 .inner-block2-content .text,
+  .octa-expansion .block1 .inner-block3-content .text {
+    position: relative;
+    padding-left: 32px;
+  }
+
+  
+  
+  
+  
+  .octa-banner h1, .octa-banner p {
+    padding-left: 0px;
+    display: table;
+    margin: 0 auto;
+    max-width: 43%;
+  }
+
+  .octa-banner h1{
+    padding-top: 200px;
+    line-height: 55px;
+  }
+
+  .meta-para {
+    max-width: 800px;
+    margin-left: 27%;
+  }
+  
+  .meta-para-flex {
+    display: flex;
+      gap: 75px;
+  }
+
+  section.octa-meta.gang h2.meta-heading {
+    text-align: center;
+  }
+
+  .octa-banner h1 span {
+    display: none;
+  }
+
+  .octa-meta .content-wrapper {
+    padding-top: 25px;
+  }
+
+  .octa-banner .button-holder.bh1 {
+    position: fixed;
+    top: 30%;
+    right: 100px;
+    z-index: 100;
+  }
+  
+  .octa-banner .button-holder.bh2 {
+    position: fixed;
+    top: 38%;
+    right: 100px;
+    z-index: 100;
+  }
+  
+  .octa-banner .button-holder a {
+    position: absolute;
+  }
+
+  .octa-banner .button-holder span {
+    display: none;
+  }
+
+  .meta-para span.mp2 {
+    display: none;
+  }
+
+  .block2-img1.mob {
+    display: none;
+  }
+
+  .block2-img1.desk {
+    position: absolute;
+      bottom: -2px;
+      right: 0;
+  }
+
+  a.mpl {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section.octa-banner {
+    /* background-image: url(../images/banner-bg-tab.png); */
+    background-position: 100%;
+  }
+
+  .octa-banner .block2 .banner-image .block2-img1 {
+    width: 450px;
+    height: auto;
+  }
+
+  .octa-roadmap .block1 {
+    padding-top: 20px;
+  }
+
+  .octa-expansion .block1 .inner-block1 {
+    padding: 10px 0 0 0;
+  }
+
+  .octa-expansion .block1 .inner-block2 {
+    padding-left: 0;
+  }
+
+  .octa-expansion .block1 .inner-block3 {
+    padding-left: 0;
+    margin-top: -50px;
+  }
+
+  .octa-team img.inner-block1-img,
+  .octa-team .overlay {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu-holder {
+    background-color: #1C0102;
+  }
+  .octa-banner i.fab.fa-discord,
+  .octa-banner i.fab.fa-twitter,
+  footer i.fab.fa-discord,
+  footer i.fab.fa-twitter {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  .octa-expansion .block1 .exp-phase-planetsbg {
+    display: none;
+  }
+
+  footer .button-holder p.desk {
+    display: none;
+  }
+
+  .oct-footer-text.mob {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* section.octa-banner {
+    background-image: url(../images/banner-bg.png); 
+  } */
+  .octa-expansion .block1 .inner-block3-content {
+    padding-top: 30px;
+  }
+
+  .octa-roadmap .block1 {
+    padding-top: 40px;
+  }
+
+  .octa-expansion .block1 .inner-block1 {
+    padding-left: 240px;
+  }
+
+  .octa-expansion .block1 .inner-block2 {
+    padding-left: 515px;
+  }
+
+  .octa-expansion .block1 .inner-block3 {
+    padding-left: 140px;
+    margin-top: -50px;
+  }
+
+  .octa-expansion .block1 .inner-block1 .inner-block1-img1,
+  .octa-expansion .block1 .inner-block2 .inner-block2-img2,
+  .octa-expansion .block1 .inner-block3 .inner-block3-img3 {
+    display: none;
+  }
+
+  .octa-expansion .block1 h2 {
+    padding-bottom: 0;
+  }
+
+  footer .button-holder p.mob {
+    display: none;
+  }
+
+  footer .button-holder {
+    display: flex;
+    width: 100%;
+    align-items: end;
+  }
+
+  footer .button-holder p.desk {
+    margin-bottom: 0;
+    padding: 0 15px;    
+  }
+
+  .block2-img1.mob {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  .octa-banner .block2 .banner-image .block2-img1 {
+    width: 550px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+  .octa-banner .block1 h1 {
+    margin-right: -172px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .octa-expansion .block1 .inner-block1-content,
+  .octa-expansion .block1 .inner-block2-content,
+  .octa-expansion .block1 .inner-block3-content {
+    padding-top: 15px;
+  }
+}
+
+
+
+
+
+.header-holder {
+  border-bottom: 1px solid rgb(253, 232, 188);
+  background-color: #1C0102;
+}
+
+section.octa-banner {
+  background-color: #070477;
+}
+
+h2{
+  color: #4F3C2E;
+  font-weight: 700;
+}
+
+h3 {
+  color : #FDE8BC;
+}
+
+.octa-roadmap p, .octa-meta p {
+  color : #4F3C2E;
+}
+
+section.octa-meta.gang {
+  background-color: #009D75;
+  border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    background-image: url(../images/gang.png);
+    background-size: 100%;
+}
+
+section.octa-meta.gang h2.meta-heading {
+  color: #FDE8BC;
+}
+
+footer img {
+  width: 100% !important;
+}
+
+.hero-sec {
+  position: relative;
+}
+
+.hero-sec img{
+  position: absolute;
+    width: 84px;
+    height: auto;
+    top: 105px;
+    left: 0;
+}
+
+.octa-banner .bh1 a.button {
+  background-color: #738ADB;
+  border: 2px solid #fff;
+}
+
+.octa-banner .bh2 a.button {
+  background-color: #1DA1F2;
+  border: 2px solid #fff;
+}
+
+.mint .button-holder a {
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+}
+
+.mint .button-holder img {
+  width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.mint .button-holder.text-center {
+  text-align: center;
+}
+
+.mint a.button {
+  color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.social-icons {
+  padding-top: 100px;
+}
+
+.social-icons a.button {
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #CE00DC;
+    border: 1px solid #707070;
+}
+
+.social-icons .fab, .social-icons .far{
+  color: #fff;
+}
+
+h2.social-text {
+  font-size: 20px;
+    color: #FFCB00;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sale-section {
+  background-color: #F47847;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sale-section article {
+  font-size: 30px;
+}
+
+#clockdiv{
+	color: #000;
+	display: inline-block;
+	font-weight: 500;
+	text-align: center;
+	font-size: 20px;
+}
+
+#clockdiv > div{
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 10px;
+	border-radius: 4px;
+	background: #fff;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+  color: #fff;
+}
+
+.social-icons.mint-sec2 {
+  padding-top: 0px;
+}
+
+#mintflow-goldlist .button-holder .button.goldlist-mint-btn {
+  background-color: #FFCB00;
+    border: 2px solid #FFCB00;
+    padding: 5px 25px;
+}
+
+#mintflow-success article {
+  padding-bottom: 15px;
+}
+
+.mint-coming-soon .sale-section {
+  background-color: unset;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mint-coming-soon .sale-section article {
+  color: #FFCB00;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+#clockdiv {
+  font-size: 30px;
+}
+
+#clockdiv p {
+  margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #fff;
+}
+
+.mint-nowallet .section-wrapper {
+  z-index: 2;
+}
+
+.mint-nowallet .social-icons {
+  padding-top: 0;
+}
+
+.char-img-box {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.char-img-box img {
+  padding: 0 20px 0 0;
+}
+
+.mint-nowallet-hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mint-container {
+  background-color: #fff;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.mint-progress {
+  background-color: #FFCB00;
+  color: #000;
+  padding: 1%;
+  font-size: 20px;  
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.mint-progress {
+  width: 80%;
+  padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+  #home {
+    background-image: url(../images/mint-bg-mob.png);
+    background-position: bottom;
+  }
+
+  .oct-heading2 {
+    font-size: 26px;
+  }
+
+  .mint .button-holder img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .sale-section {
+    top: 125px;
+    bottom: unset;
+  }
+
+  .sale-section article {
+    font-size: 18px;
+  }
+
+  #clockdiv div > span {
+    padding: 6px;
+  }
+
+  #clockdiv {
+    font-size: 12px;
+  }
+
+  .smalltext {
+    font-size: 12px;
+  }
+
+  .social-icons.desk {
+    display: none;
+  }
+
+  .social-icons.mob .button-holder.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icons.mob .btn1 {
+    padding-right: 15px;
+  }
+
+  .social-icons a.button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mint-coming-soon .sale-section article {
+    font-size: 28px;
+  }
+
+  .mint-coming-soon #clockdiv {
+    font-size: 20px;
+  }
+
+  .mint-coming-soon .social-icons.mob {
+    padding-top: 150px;
+  }
+
+  .mint-nowallet #home .section-wrapper {
+    margin-top: 200px;
+  }
+
+  .mint-nowallet .social-icons.mob {
+    padding-bottom: 30px;
+  }
+
+  .mint-nowallet-hero-img {
+    flex-direction: column-reverse;
+  }
+
+  .char-img-box {
+    flex-direction: column;
+  }
+
+  .char-img-box img {
+    padding: 0;    
+  }
+
+  .mint-nowallet-hero-img .hero-img {
+    width: 200px;
+  }
+
+  .char-img-box .char-text {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .oct-triangle {
+    left: 50px;
+    bottom: -20px;
+    transform: rotateZ(36deg);
+    top: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-icons.desk
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-icons.mob {
+    display: none;
+  }
+
+  .mint-coming-soon .social-icons.desk {
+    padding-top: 50px;
+  }
+}
