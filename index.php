@@ -70,6 +70,7 @@
                                 alt="rocket"> -->
                             <h3>100% SOLD</h3>
                             <p>Reviving Dinos. Are Dino's really dead? Can they be revived?</p>
+                            <p>babu Reviving Dinos. Are Dino's really dead? Can they be revived?</p>
                         </div>
                     </div>
                 </div>
